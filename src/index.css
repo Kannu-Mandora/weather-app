@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+   background: #F8CBA6;
+}
+
+.cards{
+   box-shadow: 5px 10px 20px #FFFBEB;
+   background-color: #e5e5f7;
+   opacity: 0.8;
+   background-size: 10px 10px;
+   background-image: repeating-linear-gradient(45deg, #e1d720 0, #e1d720 1px, #e5e5f7 0, #e5e5f7 50%); 
+}
